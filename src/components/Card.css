@@ -1,0 +1,76 @@
+.card {
+  background-color: rgba(255, 255, 255, 0.849);
+  border-radius: 0.5rem;
+  margin: 20px;
+  width: 18rem;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.btn-close {
+  background-color: red;
+  color: white;
+  /* padding: 0.3rem; */
+}
+
+#linkCard {
+  text-decoration: none;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.iconoClima {
+  background-color: #17a594;
+  border-radius: 100%;
+}
+
+.card-title {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: rgb(59, 59, 59);
+}
+
+.rowCard {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.textoCard {
+  width: 40%;
+  height: 7rem;
+}
+
+.imgClima {
+  width: 40%;
+}
+
+.maximo {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.minimo {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 0.2rem;
+  color: rgb(59, 59, 59);
+}

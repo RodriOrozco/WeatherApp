@@ -1,0 +1,22 @@
+#logoHenry {
+  margin-right: 20px;
+}
+
+.navbar {
+  box-sizing: border-box;
+  background-color: transparent !important;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  width: 100%;
+}
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}

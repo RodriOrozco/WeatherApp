@@ -1,0 +1,27 @@
+.form {
+  width: 20rem;
+  height: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form .form-control {
+  background-color: white;
+  height: 100%;
+  width: 74%;
+  font-weight: 500;
+  color: black;
+  box-sizing: border-box;
+  padding-left: 0.8rem;
+}
+
+.form .form-btn {
+  background-color: #17a594;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  height: 100%;
+  width: 26%;
+}
